@@ -35,7 +35,6 @@ class PersistenceTests extends MongoDbTestBase {
 
   @Test
   void create() {
-
     ProductEntity newEntity = new ProductEntity(2, "n", 2);
 
     StepVerifier.create(repository.save(newEntity))
@@ -71,6 +70,7 @@ class PersistenceTests extends MongoDbTestBase {
 
   @Test
   void getByProductId() {
+
     StepVerifier.create(repository.findByProductId(savedEntity.getProductId()))
       .expectNextMatches(foundEntity -> areProductEqual(savedEntity, foundEntity))
       .verifyComplete();
@@ -91,24 +91,26 @@ class PersistenceTests extends MongoDbTestBase {
 
     // Update the entity using the first entity object
     entity1.setName("n1");
-    repository.save(entity1);
+    repository.save(entity1).block();
 
-    // Update the entity using the second entity object.
-    // This should fail since the second entity now holds an old version number, i.e. an Optimistic Lock Error
+    //  Update the entity using the second entity object.
+    // This should fail since the second entity now holds a old version number, i.e. a Optimistic Lock Error
     StepVerifier.create(repository.save(entity2)).expectError(OptimisticLockingFailureException.class).verify();
 
     // Get the updated entity from the database and verify its new sate
     StepVerifier.create(repository.findById(savedEntity.getId()))
-      .expectNextMatches(foundEntity -> foundEntity.getVersion() == 1 && foundEntity.getName().equals("n1"))
+      .expectNextMatches(foundEntity ->
+        foundEntity.getVersion() == 1
+        && foundEntity.getName().equals("n1"))
       .verifyComplete();
   }
 
   private boolean areProductEqual(ProductEntity expectedEntity, ProductEntity actualEntity) {
     return
-        (expectedEntity.getId().equals(actualEntity.getId()))
-            && (expectedEntity.getVersion() == actualEntity.getVersion())
-            && (expectedEntity.getProductId() == actualEntity.getProductId())
-            && (expectedEntity.getName().equals(actualEntity.getName()))
-            && (expectedEntity.getWeight() == actualEntity.getWeight());
+      (expectedEntity.getId().equals(actualEntity.getId()))
+      && (expectedEntity.getVersion() == actualEntity.getVersion())
+      && (expectedEntity.getProductId() == actualEntity.getProductId())
+      && (expectedEntity.getName().equals(actualEntity.getName()))
+      && (expectedEntity.getWeight() == actualEntity.getWeight());
   }
 }
