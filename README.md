@@ -57,3 +57,6 @@ Config Server
 - 대게의 경우 config -> discovery 순서의 접근이 안전
 - 구성 저장소에서 application.yml은 모든 서비스에 공통으로 적용
 - 구성 서버의 encrypt, decrypt를 통해 민감정보 암호화
+
+Resilience4j
+- 재시도 메커니즘은 멱등성 보장 서비스에만 적용
