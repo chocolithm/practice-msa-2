@@ -22,6 +22,7 @@ import se.magnus.microservices.core.recommendation.persistence.RecommendationRep
 
 @SpringBootTest(webEnvironment = RANDOM_PORT, properties = {
   "eureka.client.enabled=false",
+  "spring.sleuth.mongodb.enabled=false",
   "spring.cloud.config.enabled=false"})
 class RecommendationServiceApplicationTests extends MongoDbTestBase {
 
