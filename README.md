@@ -22,7 +22,7 @@
 12장. 구성 중앙화 2025-04-18
 13장. Resilience4j를 사용한 복원력 개선 2025-04-20
 14장. 분산 추적 2025-04-20
-15장. 쿠버네티스 소개 2025-04-21
+15장. 쿠버네티스 소개 2025-04-21 ~ 2025-04-27
 22장. 윈도우용 설치 지침 2025-04-10
 
 
@@ -74,3 +74,7 @@ minikube
 k8s
 - pod 조회 :  kubectl get pods --namespace=[namespace]
 - log 조회 : kubectl logs [pod-name] --namespace=[namespace]
+
+
+# 향후 검토사항
+- k8s 사용 시 단일장애지점 문제를 어떻게 해결하는가
