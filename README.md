@@ -22,8 +22,8 @@
 12장. 구성 중앙화 2025-04-18
 13장. Resilience4j를 사용한 복원력 개선 2025-04-20
 14장. 분산 추적 2025-04-20
+15장. 쿠버네티스 소개 2025-04-21
 22장. 윈도우용 설치 지침 2025-04-10
-
 
 
 # 기록사항
@@ -65,3 +65,12 @@ Resilience4j
 Selth & Zipkin
 - 의존성 및 설정파일로 적용 가능
 - 세부적인 조작은 코드 작성
+
+minikube
+- wsl에 설정된 메모리 부족 시 .wslconfig 설정
+- minikube 실행 중 권한 문제로 일부 pod 동작 이상 시, 아래와 같이 해결
+- sudo sysctl -w net.netfilter.nf_conntrack_max=131072
+
+k8s
+- pod 조회 :  kubectl get pods --namespace=[namespace]
+- log 조회 : kubectl logs [pod-name] --namespace=[namespace]
