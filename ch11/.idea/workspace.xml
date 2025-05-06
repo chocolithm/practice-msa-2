@@ -5,7 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3617ca4-23b0-4684-b155-9f9a0f2cb7d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/auth-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/auth-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/eureka-server.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/product-composite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/product-composite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/product.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/product.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/recommendation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/recommendation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/config-repo/review.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/config-repo/review.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/docker-compose-kafka.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/docker-compose-kafka.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/docker-compose-partitions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/docker-compose-partitions.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/src/test/java/se/magnus/microservices/composite/product/MessagingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/src/test/java/se/magnus/microservices/composite/product/MessagingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/src/test/java/se/magnus/microservices/composite/product/ProductCompositeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/product-composite-service/src/test/java/se/magnus/microservices/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/product-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/product-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/product-service/src/test/java/se/magnus/microservices/core/product/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/product-service/src/test/java/se/magnus/microservices/core/product/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/recommendation-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/recommendation-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/RecommendationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/recommendation-service/src/test/java/se/magnus/microservices/core/recommendation/RecommendationServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/review-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/review-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/microservices/review-service/src/test/java/se/magnus/microservices/core/review/ReviewServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/microservices/review-service/src/test/java/se/magnus/microservices/core/review/ReviewServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/src/main/java/sample/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/src/test/java/sample/OAuth2AuthorizationServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/authorization-server/src/test/java/sample/OAuth2AuthorizationServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/config-server/src/main/java/se/magnus/springcloud/configserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/config-server/src/main/java/se/magnus/springcloud/configserver/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/src/main/java/se/magnus/springcloud/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/src/main/java/se/magnus/springcloud/eurekaserver/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/src/test/java/se/magnus/springcloud/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/eureka-server/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/src/main/java/se/magnus/springcloud/gateway/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/src/main/java/se/magnus/springcloud/gateway/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/src/test/java/se/magnus/springcloud/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/spring-cloud/gateway/src/test/java/se/magnus/springcloud/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16/test-em-all.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16/test-em-all.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +66,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu-20.04/home/kys8336/practice-msa-2/ch12/settings.gradle",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-20.04/home/kys8336/practice-msa-2/ch12/settings.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

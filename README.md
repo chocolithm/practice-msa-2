@@ -23,6 +23,7 @@
 13장. Resilience4j를 사용한 복원력 개선 2025-04-20
 14장. 분산 추적 2025-04-20
 15장. 쿠버네티스 소개 2025-04-21 ~ 2025-04-27
+16장. 쿠버네티스에 마이크로서비스 배포 2025-04-27 ~ 2025-05-06
 22장. 윈도우용 설치 지침 2025-04-10
 
 
@@ -74,6 +75,7 @@ minikube
 k8s
 - pod 조회 :  kubectl get pods --namespace=[namespace]
 - log 조회 : kubectl logs [pod-name] --namespace=[namespace]
+- 1인 개발의 운영 환경에는 k3s로 시작하는 편이 효율적
 
 
 # 향후 검토사항
